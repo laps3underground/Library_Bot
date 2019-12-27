@@ -123,4 +123,3 @@ class library:
             log.write('Name: ' + str(self.msg['from']['first_name'].encode('utf-8')) + ' |Chat: ' + str(self.msg['chat']['id']) + '|User: ' + str(user.encode('utf-8')) + ' |Text: ' +str(self.msg.get('text').encode('utf-8')) + '\n')
             print('Name: ' + str(self.msg['from']['first_name']) + ' |Chat: ' + str(self.msg['chat']['id']) + ' |User: ' + str(user) + ' __/title@lib__')
             print(str(user.encode('utf-8')) + ' has changed the name of ' + str(self.chat_id))
-.write('Name: ' + str(self.msg['from']['first_name'].encode('utf-8')) + ' |Chat: ' + str(self.msg['chat']['id']) + '|User: ' + str(user.encode('utf-8')) + ' |Text: ' + str(self.msg.get('text').encode('utf-8')) + '\n')

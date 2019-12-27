@@ -68,7 +68,7 @@ class library:
             print('Name: ' + str(self.msg['from']['first_name']) + ' |Chat: ' + str(self.msg['chat']['id']) + ' |User: ' + str(user) + ' __/banid@lib__')
             print(str(user.encode('utf-8')) + ' has banned ' + str(usern.encode('utf-8')))
         elif self.msg.get('text').startswith('/addlink@lib'):
-            if self.msg['from']['id'] == 865178887:
+            if self.msg['from']['id'] == :
                 damn = self.msg.get('text').split()
                 damn2 = damn[1]
                 links_reading = open('links.txt', 'r')
